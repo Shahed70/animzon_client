@@ -8,7 +8,7 @@ import Nav from "./components/Nav/Nav";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql",
+  uri: "https://animzon.herokuapp.com",
   cache: new InMemoryCache(),
 });
 
